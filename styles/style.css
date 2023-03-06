@@ -195,7 +195,6 @@
 
 .feynman {
   position: relative;
-  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: start;
