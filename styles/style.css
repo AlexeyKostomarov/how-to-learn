@@ -160,7 +160,7 @@
   font-size: 24px;
   font-weight: normal;
   padding-top: 20px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   margin: 0;
 }
 
@@ -171,20 +171,21 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 60px 0 100px 0;
-  padding-top: 60px;
   row-gap: 60px;
 }
 
 .table__cell {
+  display: flex;
+  flex-direction: column;
   width: 250px;
   list-style-type: none;
+  row-gap: 20px;
 }
 
 .table__heading {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
-  padding-bottom: 20px;
   margin: 0;
 }
 
@@ -247,8 +248,8 @@
 }
 
 .section-subtitle_theme_dark {
-  padding-bottom: 80px;
   margin: 0;
+  padding: 20px 0 0 0
 }
 
 .section-title_theme_dark {}
