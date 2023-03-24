@@ -5,7 +5,5 @@
 	position: absolute;
 	right: 0;
 	top: 64px;
-	z-index: 0;
-	animation: turn 20s linear infinite;
-
+	z-index: -1;
 }
